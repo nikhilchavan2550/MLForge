@@ -1,1 +1,29 @@
-CONTENT_FROM_LOCAL_REQUIREMENTS_TXT
+# Core dependencies
+streamlit==1.30.0
+pandas==2.0.3
+numpy==1.24.4
+matplotlib>=3.5.0,<3.8.0
+seaborn>=0.11.0,<0.13.0
+scikit-learn>=1.0.0,<1.4.0
+
+# Visualization
+plotly>=5.10.0
+openpyxl>=3.0.0
+reportlab>=3.6.0
+Pillow>=9.0.0
+
+# ML Libraries
+joblib>=1.1.0
+xgboost>=1.5.0
+lightgbm>=3.3.0
+
+# Deep Learning
+tensorflow-cpu>=2.10.0,<2.13.0
+protobuf==3.20.3
+
+# Gemini API Integration
+google-generativeai>=0.2.0
+
+# System utilities
+setuptools==69.0.3
+psutil==5.9.5
